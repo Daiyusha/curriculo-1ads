@@ -1,0 +1,197 @@
+table.tabela {
+    border-collapse: collapse;
+    height: 100%;
+    width: 800px;
+    border: transparent;
+    
+}
+
+table.tabela-index, hr{
+    border-collapse: collapse;
+    border: transparent;
+   
+}
+
+.tabela-posicao {
+    margin: 0;
+    position: absolute;
+    left: 28%;
+    right: 28%;
+}
+
+.foto-perfil, .tabela-index img{
+    border-radius: 100%;
+    align-content: center;
+    
+}
+
+.margem{
+
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+
+.fundo-capa h1{
+
+    color:white; 
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 40px ;
+    text-align: center;
+    margin-bottom: 0px;
+    text-transform: uppercase; 
+    
+}
+.fundo-capa h2, .titulo-outro, .td2 h2, .td3 h2{
+
+    color:white; 
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: 15px ;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+
+.td3 li {
+    
+    color:rgb(255, 255, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+
+}
+
+
+.tabela-index h2 {
+
+    color:transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+
+body {
+
+    background-size:cover;
+    background-image: url("fundo-codigos.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+
+.index h1{
+    background-image: linear-gradient(to left, rgb(132, 0, 240), rgb(44, 0, 240), rgb(0, 104, 240), rgb(0, 204, 240));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.tabela td:hover h1,.tabela td:hover h2,.tabela-index td:hover h2,.menu tr:hover h1 {
+    background-image: linear-gradient(to left, rgb(132, 0, 240), rgb(44, 0, 240), rgb(0, 104, 240), rgb(0, 204, 240));
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+img {
+    border: solid;
+    border-color: transparent;
+}
+
+
+.td3:hover, .tabela-index td:hover img, img.foto-perfil:hover {
+    
+    border-style: solid ;
+    border-top-color: rgb(0, 104, 240);
+    border-bottom-color: rgb(44, 0, 240);
+    border-left-color: rgb(132, 0, 240);
+    border-right-color: rgb(0, 204, 240);
+    
+}
+
+
+a .instagram,.linkedin,.whatsapp,.github {
+    position: relative;
+    display: inline-block;
+}
+
+a img.instagram1,.linkedin1,.whatsapp1,.github1 {
+    display: none;
+}
+
+a.link-instagram:hover .instagram,a.link-linkedin:hover .linkedin,a.link-whatsapp:hover .whatsapp,a.link-github:hover .github {
+
+    display: none;
+
+}
+
+a.link-instagram:hover .instagram1,a.link-linkedin:hover .linkedin1,a.link-whatsapp:hover .whatsapp1,a.link-github:hover .github1 {
+
+    display: inline-block;
+
+}
+
+table.menu {
+    float:left;
+    margin: 0;
+}
+
+.menu h1{
+
+    color:rgb(255, 255, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    align-self: baseline;
+
+}
+
+
+
+.menu img {
+    border-radius: 100%;
+    align-content: center;
+    
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+td#soft-viktor:hover {
+
+    background-image: url("soft-viktor.png");
+
+}
+
+td#hard-viktor:hover {
+
+    background-image: url("hard-viktor.png");
+
+}
+
+td#soft-lucas:hover {
+
+    background-image: url("soft-lucas.png");
+
+}
+
+td#hard-lucas:hover {
+
+    background-image: url("hard-lucas.png");
+
+}
